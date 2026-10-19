@@ -1,0 +1,136 @@
+[
+  {
+    "id": "haixin",
+    "title": "海欣國際",
+    "period": "2026.03 — 現在",
+    "images": [
+      {
+        "src": "./assets/albums/haixin/01.jpg",
+        "alt": "海欣國際｜作品展板 01"
+      },
+      {
+        "src": "./assets/albums/haixin/02.jpg",
+        "alt": "海欣國際｜作品展板 02"
+      },
+      {
+        "src": "./assets/albums/haixin/03.jpg",
+        "alt": "海欣國際｜作品展板 03"
+      },
+      {
+        "src": "./assets/albums/haixin/04.jpg",
+        "alt": "海欣國際｜作品展板 04"
+      },
+      {
+        "src": "./assets/albums/haixin/05.jpg",
+        "alt": "海欣國際｜作品展板 05"
+      },
+      {
+        "src": "./assets/albums/haixin/06.jpg",
+        "alt": "海欣國際｜作品展板 06"
+      },
+      {
+        "src": "./assets/albums/haixin/07.jpg",
+        "alt": "海欣國際｜作品展板 07"
+      },
+      {
+        "src": "./assets/albums/haixin/08.jpg",
+        "alt": "海欣國際｜作品展板 08"
+      },
+      {
+        "src": "./assets/albums/haixin/09.jpg",
+        "alt": "海欣國際｜作品展板 09"
+      }
+    ],
+    "cover": {
+      "src": "./assets/albums/haixin/01.jpg",
+      "alt": "海欣國際｜作品展板 01"
+    }
+  },
+  {
+    "id": "roburn",
+    "title": "勞朋企業",
+    "period": "2024.07 — 2025.12",
+    "images": [
+      {
+        "src": "./assets/albums/roburn/01.jpg",
+        "alt": "勞朋企業｜作品展板 01"
+      },
+      {
+        "src": "./assets/albums/roburn/02.jpg",
+        "alt": "勞朋企業｜作品展板 02"
+      },
+      {
+        "src": "./assets/albums/roburn/03.jpg",
+        "alt": "勞朋企業｜作品展板 03"
+      },
+      {
+        "src": "./assets/albums/roburn/04.jpg",
+        "alt": "勞朋企業｜作品展板 04"
+      },
+      {
+        "src": "./assets/albums/roburn/05.jpg",
+        "alt": "勞朋企業｜作品展板 05"
+      },
+      {
+        "src": "./assets/albums/roburn/06.jpg",
+        "alt": "勞朋企業｜作品展板 06"
+      },
+      {
+        "src": "./assets/albums/roburn/07.jpg",
+        "alt": "勞朋企業｜作品展板 07"
+      },
+      {
+        "src": "./assets/albums/roburn/08.jpg",
+        "alt": "勞朋企業｜作品展板 08"
+      },
+      {
+        "src": "./assets/albums/roburn/09.jpg",
+        "alt": "勞朋企業｜作品展板 09"
+      },
+      {
+        "src": "./assets/albums/roburn/10.jpg",
+        "alt": "勞朋企業｜作品展板 10"
+      },
+      {
+        "src": "./assets/albums/roburn/11.jpg",
+        "alt": "勞朋企業｜作品展板 11"
+      },
+      {
+        "src": "./assets/albums/roburn/12.jpg",
+        "alt": "勞朋企業｜作品展板 12"
+      },
+      {
+        "src": "./assets/albums/roburn/13.jpg",
+        "alt": "勞朋企業｜作品展板 13"
+      },
+      {
+        "src": "./assets/albums/roburn/14.jpg",
+        "alt": "勞朋企業｜作品展板 14"
+      },
+      {
+        "src": "./assets/albums/roburn/15.jpg",
+        "alt": "勞朋企業｜作品展板 15"
+      },
+      {
+        "src": "./assets/albums/roburn/16.jpg",
+        "alt": "勞朋企業｜作品展板 16"
+      },
+      {
+        "src": "./assets/albums/roburn/17.jpg",
+        "alt": "勞朋企業｜作品展板 17"
+      },
+      {
+        "src": "./assets/albums/roburn/18.jpg",
+        "alt": "勞朋企業｜作品展板 18"
+      },
+      {
+        "src": "./assets/albums/roburn/19.jpg",
+        "alt": "勞朋企業｜作品展板 19"
+      }
+    ],
+    "cover": {
+      "src": "./assets/albums/roburn/13.jpg",
+      "alt": "勞朋企業｜作品展板 13"
+    }
+  }
+]
