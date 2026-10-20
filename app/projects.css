@@ -32,3 +32,5 @@
 @media(max-width:760px){.about-editorial{padding-top:155px}.about-editorial section{padding:45px 6%}.about-hero-grid{grid-template-columns:1fr;gap:38px}.about-editorial .about-hero{padding-bottom:45px}.about-signature{min-height:0;padding:25px;flex-direction:row;gap:25px;align-items:end}.about-signature>span{font-size:95px}.about-signature>span>span{font-size:10px;letter-spacing:.08em;margin-top:15px}.about-signature ol{margin-top:0;gap:15px}.about-signature li{font-size:12px}.about-capability-grid{grid-template-columns:1fr;gap:30px}.about-career{grid-template-columns:1fr;gap:14px}.about-career h3{font-size:23px}.about-foundation{grid-template-columns:1fr;gap:25px}.about-intro{font-size:15px}}
 .about-intro p+p{margin-top:18px}
 .about-company-details{list-style:disc;padding-left:20px;margin:24px 0 0;color:#aaaab2;font-size:15px;line-height:1.95;max-width:760px}.about-company-details li+li{margin-top:16px}.about-company-details strong{font-weight:500;color:#e2e6e1}.about-company-tools{font-size:13px;line-height:1.9;color:#aebbb2;margin-top:24px;max-width:760px}
+
+.about-career-links{display:flex;flex-wrap:wrap;gap:0 26px}
