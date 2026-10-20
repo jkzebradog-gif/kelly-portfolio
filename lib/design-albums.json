@@ -5,12 +5,12 @@
     "period": "2026.03 — 現在",
     "images": [
       {
-        "src": "./assets/albums/haixin/01.jpg",
-        "alt": "海欣國際｜作品展板 01"
+        "src": "./assets/albums/haixin/cover-fairy.jpg",
+        "alt": "海欣國際｜法芮頭皮的渡假村主視覺與現場應用"
       },
       {
-        "src": "./assets/albums/haixin/02.jpg",
-        "alt": "海欣國際｜作品展板 02"
+        "src": "./assets/albums/haixin/01.jpg",
+        "alt": "海欣國際｜作品展板 01"
       },
       {
         "src": "./assets/albums/haixin/03.jpg",
@@ -42,8 +42,8 @@
       }
     ],
     "cover": {
-      "src": "./assets/albums/haixin/01.jpg",
-      "alt": "海欣國際｜作品展板 01"
+      "src": "./assets/albums/haixin/cover-fairy.jpg",
+      "alt": "海欣國際｜法芮頭皮的渡假村主視覺與現場應用"
     }
   },
   {
