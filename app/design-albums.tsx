@@ -4,7 +4,9 @@ import albums from '@/lib/design-albums.json';
 import {Dialog,DialogContent,DialogTitle,DialogDescription} from '@/components/ui/dialog';
 const pad=(n:number)=>String(n).padStart(2,'0');
 export default function DesignAlbums(){
- const[selected,setSelected]=useState<string|null>(()=>{const id=location.hash.split("#")[2];return albums.some(a=>a.id===id)?id:null});
+ const readAlbum=()=>{const hash=decodeURIComponent(location.hash);const id=hash.startsWith('#/design/')?hash.slice(9).split('#')[0]:hash.split('#')[2];return albums.some(a=>a.id===id)?id:null};
+ const[selected,setSelected]=useState<string|null>(readAlbum);
+ useEffect(()=>{const sync=()=>{setSelected(readAlbum());setActive(0);setZoom(false)};window.addEventListener('hashchange',sync);return()=>window.removeEventListener('hashchange',sync)},[]);
  const[active,setActive]=useState(0);
  const[zoom,setZoom]=useState(false);
  const start=useRef<number|null>(null);
