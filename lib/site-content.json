@@ -1,1 +1,79 @@
-{"works": [{"id": "36289a3d-b180-4069-9367-814067cfc047", "title": "相簿示範圖片 1", "brand": "版面預覽", "category": "photography", "description": "示範用圖片，可在後台替換為正式攝影作品。", "image": "./assets/mushroom-forest.jpg", "media": "./assets/mushroom-forest.jpg", "mediaType": "image", "sortOrder": 1, "hidden": 0}, {"id": "b55d5308-6711-4979-b226-027834af853c", "title": "相簿示範圖片 2", "brand": "版面預覽", "category": "photography", "description": "示範用圖片，可在後台替換為正式攝影作品。", "image": "./assets/mushroom-forest-expanded.png", "media": "./assets/mushroom-forest-expanded.png", "mediaType": "image", "sortOrder": 2, "hidden": 0}], "projects": [{"id": "roburn", "title": "勞朋企業｜品牌視覺與設計資產整理", "client": "勞朋企業 ROBURN", "period": "2024.07 — 2025.12", "summary": "在約 40 年歷史的噴火槍製造商，擔任第一位正式設計人員。延續既有 Logo，逐步整理品牌識別、產品影像與資訊，並將它們應用在官網、型錄及海外展覽。", "role": "主導設計資產建立與視覺執行，並與業務、研發及外部製作廠商協作。公司原有 Logo 非本人設計。", "cover": "./assets/uploads/53cba263-5fd1-435b-a52e-087973f52e51.jpg", "blocks": [{"id": "background", "heading": "專案背景", "text": "公司已有產品與製造技術，但品牌視覺、產品圖片、官網資訊與型錄缺乏系統性的整理。我的工作從盤點既有素材開始，逐步建立後續設計可以沿用的基礎。", "image": "", "caption": ""}, {"id": "identity", "heading": "延續既有識別，整理使用依據", "text": "保留公司原有 Logo，整理深淺背景的應用版本、標誌使用優先順序與色彩資訊，製作識別參考文件。這部分的工作範圍是既有識別整理，而非 Logo 原創設計。", "image": "", "caption": ""}, {"id": "assets", "heading": "整理產品影像與資訊", "text": "進行產品拍攝與情境影像製作，整理圖庫分類、命名與版本管理；同時參與官網的產品分類、資訊層級與視覺版型，以及產品總目錄的規格整理、頁面模板與印刷製作。", "image": "", "caption": ""}, {"id": "collaboration", "heading": "把設計帶進實際使用", "text": "配合海外展覽製作主視覺、大型輸出與產品介紹素材，並與業務、研發及製作廠商協調規格、時程、成本與製作方式。", "image": "", "caption": ""}, {"id": "ai", "heading": "將 AI 放進商業影像流程", "text": "面對產品情境照不足、拍攝成本與素材取得的限制，將 AI 場景生成、真實產品合成及 Photoshop 後製串接，應用於官網、型錄、展覽與行銷素材。", "image": "", "caption": ""}, {"id": "outcome", "heading": "完成的設計基礎", "text": "整理並建立識別參考文件、產品圖庫與檔案管理方式，完成官網視覺、產品總目錄及展覽素材，並將 AI 影像製作導入日常工作流程。", "image": "", "caption": ""}], "sortOrder": 0, "hidden": false}], "hero": {"video": "./assets/uploads/e0f8355f-c49b-4581-9d44-093798b5cda6.mp4", "poster": "", "fit": "cover", "title": "讓故事，開始流動。", "subtitle": "影像裡的想像與實踐。"}, "profile": {}}
+{
+  "works": [
+    {
+      "id": "36289a3d-b180-4069-9367-814067cfc047",
+      "title": "相簿示範圖片 1",
+      "brand": "版面預覽",
+      "category": "photography",
+      "description": "示範用圖片，可在後台替換為正式攝影作品。",
+      "image": "./assets/mushroom-forest.jpg",
+      "media": "./assets/mushroom-forest.jpg",
+      "mediaType": "image",
+      "sortOrder": 1,
+      "hidden": 0
+    },
+    {
+      "id": "b55d5308-6711-4979-b226-027834af853c",
+      "title": "相簿示範圖片 2",
+      "brand": "版面預覽",
+      "category": "photography",
+      "description": "示範用圖片，可在後台替換為正式攝影作品。",
+      "image": "./assets/mushroom-forest-expanded.png",
+      "media": "./assets/mushroom-forest-expanded.png",
+      "mediaType": "image",
+      "sortOrder": 2,
+      "hidden": 0
+    }
+  ],
+  "projects": [
+    {
+      "id": "roburn",
+      "title": "勞朋企業｜從零建立品牌視覺與設計資產",
+      "client": "勞朋企業 ROBURN",
+      "period": "2024.07 — 2025.12",
+      "summary": "從品牌視覺、產品圖庫到官網上線，建立公司可持續使用的設計基礎。",
+      "role": "",
+      "cover": "./assets/albums/roburn/13.jpg",
+      "blocks": [
+        {
+          "id": "background",
+          "heading": "專案概述",
+          "text": "公司原先缺乏設計職能，品牌視覺、產品資訊與影像素材有待整合。\n從零建立設計基礎，支援國際展覽、業務推廣、產品包裝與官網上線。\n將一次性的設計產出，整理為可持續使用、更新的公司資產。",
+          "image": "",
+          "caption": ""
+        },
+        {
+          "id": "role",
+          "heading": "我的角色",
+          "text": "首位設計人員：負責品牌視覺規劃、設計執行與素材管理。\n跨部門整合：與業務、研發及外部廠商協作，整合需求與製作條件。\n官網上線協作：跟進網站製作，完成產品內容與素材上架。",
+          "image": "",
+          "caption": ""
+        },
+        {
+          "id": "strategy",
+          "heading": "策略與設計",
+          "text": "統一品牌視覺：整理既有 Logo、標準色與輔色，延伸至展覽、型錄及行銷物料。\n建立產品圖庫：補拍、去背及調色，依系列與型號分類，供業務與設計直接取用。\n重整產品型錄：盤點品項、剔除停產品，放大產品圖片並統一規格表，提升閱讀與更新效率。\n整合官網內容：整理產品圖文、製作 Banner、完成後台上架，建立後續更新用素材。\n規劃展覽視覺：建立主視覺，依不同展會的尺寸、產品與資訊需求延伸應用。\n建立製作紀錄：整理包裝、說明書與印刷檔案，配合設變流程備份，方便查找與追溯。",
+          "image": "",
+          "caption": ""
+        },
+        {
+          "id": "outcome",
+          "heading": "成果與價值",
+          "text": "視覺產出：展覽主視覺、海報、型錄、包裝、說明書、周年活動物料與影片。\n官網上線：完成產品資料、影像及首頁廣告上架，支援網站持續更新。\n資產累積：建立產品圖庫、去背素材、海報資料庫與共用檔案。\n作業改善：減少重複拍攝、修圖與找檔工作，讓業務及後續設計有共同使用的基礎。",
+          "image": "",
+          "caption": ""
+        }
+      ],
+      "sortOrder": 0,
+      "hidden": false
+    }
+  ],
+  "hero": {
+    "video": "./assets/uploads/e0f8355f-c49b-4581-9d44-093798b5cda6.mp4",
+    "poster": "",
+    "fit": "cover",
+    "title": "讓故事，開始流動。",
+    "subtitle": "影像裡的想像與實踐。"
+  },
+  "profile": {}
+}
