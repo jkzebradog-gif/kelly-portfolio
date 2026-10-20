@@ -132,5 +132,52 @@
       "src": "./assets/albums/roburn/13.jpg",
       "alt": "勞朋企業｜作品展板 13"
     }
+  },
+  {
+    "id": "duism",
+    "title": "杜森 duism",
+    "period": "品牌 IP・社群視覺設計",
+    "images": [
+      {
+        "src": "./assets/albums/duism/1.jpg",
+        "alt": "杜森 duism｜品牌森林主視覺"
+      },
+      {
+        "src": "./assets/albums/duism/2.jpg",
+        "alt": "杜森 duism｜古比角色與森林場景"
+      },
+      {
+        "src": "./assets/albums/duism/20260202.jpg",
+        "alt": "杜森 duism｜養殖環境與蘋果主題"
+      },
+      {
+        "src": "./assets/albums/duism/20260225.jpg",
+        "alt": "杜森 duism｜產品尺寸角色示意"
+      },
+      {
+        "src": "./assets/albums/duism/20260211.jpg",
+        "alt": "杜森 duism｜春節出貨主題"
+      },
+      {
+        "src": "./assets/albums/duism/20260209.jpg",
+        "alt": "杜森 duism｜高蛋白主題"
+      },
+      {
+        "src": "./assets/albums/duism/20260223.jpg",
+        "alt": "杜森 duism｜飼養營養主題"
+      },
+      {
+        "src": "./assets/albums/duism/20260218.jpg",
+        "alt": "杜森 duism｜春節情境主題"
+      },
+      {
+        "src": "./assets/albums/duism/20260216.jpg",
+        "alt": "杜森 duism｜馬年新年祝賀"
+      }
+    ],
+    "cover": {
+      "src": "./assets/albums/duism/1.jpg",
+      "alt": "杜森 duism｜品牌森林主視覺"
+    }
   }
 ]
