@@ -47,6 +47,105 @@
     }
   },
   {
+    "id": "fairy-launch",
+    "title": "海欣國際｜法芮品牌發表會陳列設計",
+    "period": "2026.05.20",
+    "images": [
+      {
+        "src": "./assets/albums/fairy-launch/01.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 01"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/02.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 02"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/03.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 03"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/04.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 04"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/05.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 05"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/06.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 06"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/07.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 07"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/08.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 08"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/09.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 09"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/10.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 10"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/11.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 11"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/12.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 12"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/13.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 13"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/14.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 14"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/15.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 15"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/16.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 16"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/17.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 17"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/18.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 18"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/19.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 19"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/20.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 20"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/21.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 21"
+      },
+      {
+        "src": "./assets/albums/fairy-launch/22.jpg",
+        "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 22"
+      }
+    ],
+    "cover": {
+      "src": "./assets/albums/fairy-launch/14.jpg",
+      "alt": "海欣國際｜法芮品牌發表會陳列設計｜現場照片 14"
+    }
+  },
+  {
     "id": "roburn",
     "title": "勞朋企業",
     "period": "2024.07 — 2025.12",
