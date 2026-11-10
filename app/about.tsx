@@ -2,7 +2,7 @@ import {useState} from 'react';
 import type {Profile} from '@/lib/portfolio';
 const skillGroups: {label:string; skills:string[]; vendorScope?:string}[] = [
  { label: '設計', skills: ['活動主視覺與行銷素材', '品牌設計與識別規範', '陳列設計', '展覽與攤位視覺', '包裝設計', '書籍排版', '產品型錄與規格表', '插畫與資訊圖表', '門市招牌與燈箱設計'] },
- { label: 'AI 應用', skills: ['生成式 AI 影像製作', '療程與商品情境圖', 'AI 輔助影片剪輯', 'AI 工具教學與流程導入'] },
+ { label: 'AI 應用', skills: ['生成式 AI 影像製作', '商品使用情境圖', '應用影像合成技術，降低 AI 感', 'AI 輔助影片剪輯', 'AI 工具教學與流程導入'] },
  { label: '拍攝與剪輯', skills: ['商品攝影與打燈', '活動攝影與紀錄', '影像剪輯', 'Photoshop 合成與後製'] },
  { label: '客戶訪談與提案', skills: ['客戶訪談與需求釐清', '視覺方向與提案', '報價與預算評估'] },
  { label: '後端執行', vendorScope: '門市招牌與燈箱製作、官網建置（架構與內容上架）', skills: ['專案排程與跨部門協作', '材質工法與製作規格', '產品圖庫建置', '版型與檔案命名規則', '版本控管與源檔交付'] },
