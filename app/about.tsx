@@ -16,6 +16,12 @@ export default function About({profile}:{profile:Profile}){return <div className
  <a className="text-link" href={'mailto:'+profile.email}>{profile.email} ↗</a>
  <div className="about-skills" aria-labelledby="about-skills-title">
   <h2 id="about-skills-title">我能做的事</h2>
-  <div className="about-skill-groups">{skillGroups.map(({label,skills})=><div key={label} className="about-skill-group"><h3>{label}</h3><ul>{skills.map(skill=><li key={skill}>{skill}</li>)}</ul></div>)}</div>
+  <ul className="about-skill-highlights">
+   {['品牌視覺設計','AI 影像與團隊教學','產品圖庫建置','外包製作管理'].map(skill=><li key={skill}>{skill}</li>)}
+  </ul>
+  <details className="about-skill-details">
+   <summary><span className="about-skill-expand">查看完整能力與工具</span><span className="about-skill-collapse">收起完整能力與工具</span></summary>
+   <div className="about-skill-groups">{skillGroups.map(({label,skills})=><div key={label} className="about-skill-group"><h3>{label}</h3><ul>{skills.map(skill=><li key={skill}>{skill}</li>)}</ul></div>)}</div>
+  </details>
  </div>
 </section><section className="about-experience"><div className="about-section-heading"><p className="eyebrow">EXPERIENCE</p><h2>在不同場域，累積整合能力。</h2></div>{experience.map(([date,company,role,text],index)=><article className="about-career" key={company}><p className="about-date">{date}</p><div><p className="about-job">{role}</p><h3>{company}</h3><p>{text}</p>{companyDetails[index]?.length>0&&<div className="about-company-functions"><h4>工作職能</h4><ul className="about-company-details">{companyDetails[index].map(([title,body])=><li key={title}><details><summary>{title}</summary><p>{body}</p></details></li>)}</ul></div>}<div className="about-career-links">{company.includes('海欣')&&<a className="text-link" href="#/projects/haixin">閱讀海欣專案 ↗</a>}{company.includes('勞朋')&&<a className="text-link" href="#/projects/roburn">閱讀勞朋專案 ↗</a>}{index<2&&<a className="text-link" href={"#/design/"+(index===0?"haixin":"roburn")}>查看{index===0?"海欣":"勞朋"}設計作品 ↗</a>}</div></div></article>)}</section><section className="about-contact"><p className="eyebrow">LET’S CONNECT</p><h2>讓想法，成為下一個作品。</h2><a href={'mailto:'+profile.email}>{profile.email} ↗</a></section></div>}
