@@ -11,7 +11,7 @@ const companyDetails=[[["AI 生成影像與設計流程導入", "發揮生成式
 export default function About({profile}:{profile:Profile}){return <div className="about-editorial"><section className="about-hero" aria-labelledby="about-name">
  <p className="eyebrow">01 / ABOUT KELLY</p>
  <h1 id="about-name">{profile.name}<span>{profile.englishName}</span></h1>
- <p className="about-statement">從品牌視覺、AI 影像到印前製作，把設計做到能交付。</p>
+ <p className="about-statement">把講不清楚的想法，<br/>變成看得見、做得出的設計。</p>
  <div className="about-intro"><p>{profile.bio}</p><p>我畢業於中國文化大學廣告系，主修視覺傳達設計。廣告與行銷的訓練讓我習慣先釐清受眾、訊息與使用情境，再決定視覺方向。我也做商業攝影、木雕與雕塑，曾入選台中雕塑獎，並於文化大學推廣教育部兼職授課。</p></div>
  <a className="text-link" href={'mailto:'+profile.email}>{profile.email} ↗</a>
  <div className="about-skills" aria-labelledby="about-skills-title">
