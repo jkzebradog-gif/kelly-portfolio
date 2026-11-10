@@ -47,6 +47,65 @@
     }
   },
   {
+    "id": "golden-hand-award",
+    "title": "中華民國美容同業協會－2026 美業金手獎",
+    "period": "2026｜活動視覺設計",
+    "images": [
+      {
+        "src": "./assets/albums/golden-hand-award/01.jpg",
+        "alt": "美業金手獎｜主視覺背板"
+      },
+      {
+        "src": "./assets/albums/golden-hand-award/02.jpg",
+        "alt": "美業金手獎｜X 展架設計"
+      },
+      {
+        "src": "./assets/albums/golden-hand-award/03.jpg",
+        "alt": "美業金手獎｜直式螢幕設計"
+      },
+      {
+        "src": "./assets/albums/golden-hand-award/04.jpg",
+        "alt": "美業金手獎｜舞台螢幕視覺"
+      },
+      {
+        "src": "./assets/albums/golden-hand-award/05.jpg",
+        "alt": "美業金手獎｜活動布條設計"
+      },
+      {
+        "src": "./assets/albums/golden-hand-award/06.jpg",
+        "alt": "美業金手獎｜獎金手拿牌"
+      },
+      {
+        "src": "./assets/albums/golden-hand-award/07.jpg",
+        "alt": "美業金手獎｜評審桌牌設計"
+      },
+      {
+        "src": "./assets/albums/golden-hand-award/08.jpg",
+        "alt": "美業金手獎｜選手與老師識別吊牌（紫色）"
+      },
+      {
+        "src": "./assets/albums/golden-hand-award/09.jpg",
+        "alt": "美業金手獎｜選手與老師識別吊牌（藍色）"
+      },
+      {
+        "src": "./assets/albums/golden-hand-award/10.jpg",
+        "alt": "美業金手獎｜競賽識別與床尾號碼"
+      },
+      {
+        "src": "./assets/albums/golden-hand-award/11.jpg",
+        "alt": "美業金手獎｜麥克風牌設計"
+      },
+      {
+        "src": "./assets/albums/golden-hand-award/12.jpg",
+        "alt": "美業金手獎｜社群宣傳設計"
+      }
+    ],
+    "cover": {
+      "src": "./assets/albums/golden-hand-award/01.jpg",
+      "alt": "美業金手獎｜主視覺背板"
+    }
+  },
+  {
     "id": "fairy-launch",
     "title": "海欣國際｜法芮品牌發表會陳列設計",
     "period": "2026.05.20",

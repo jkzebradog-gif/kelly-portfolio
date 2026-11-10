@@ -68,6 +68,47 @@
       "hidden": false
     },
     {
+      "id": "golden-hand-award",
+      "title": "中華民國美容同業協會－2026 美業金手獎",
+      "client": "中華民國美容同業協會",
+      "period": "2026｜活動視覺設計",
+      "summary": "以金色手形獎座為主視覺，延伸至舞台、競賽識別物與賽前社群宣傳。",
+      "role": "",
+      "cover": "./assets/albums/golden-hand-award/01.jpg",
+      "blocks": [
+        {
+          "id": "background",
+          "heading": "專案概述",
+          "text": "活動視覺：為 2026 美業金手獎建立一致的活動形象，兼顧舞台呈現、競賽識別與賽前宣傳。",
+          "image": "",
+          "caption": ""
+        },
+        {
+          "id": "role",
+          "heading": "我的角色",
+          "text": "活動視覺設計：從主視覺背板延伸至螢幕、展架、布條、識別物與社群圖像。",
+          "image": "",
+          "caption": ""
+        },
+        {
+          "id": "strategy",
+          "heading": "策略與設計",
+          "text": "統一主視覺：以金色手形獎座與緞帶為核心，延伸至橫幅、直式螢幕和舞台版面。\n區分現場資訊：以色彩、姓名和大號碼區分選手與老師識別吊牌，並讓床尾號碼便於辨認。",
+          "image": "",
+          "caption": ""
+        },
+        {
+          "id": "outcome",
+          "heading": "作品呈現",
+          "text": "舞台與宣傳：主視覺背板、X 展架、直式螢幕、舞台螢幕、活動布條與社群宣傳。\n競賽物料：獎金手拿牌、評審桌牌、識別吊牌、床尾號碼與麥克風牌。",
+          "image": "",
+          "caption": ""
+        }
+      ],
+      "sortOrder": 1,
+      "hidden": false
+    },
+    {
       "id": "roburn",
       "title": "勞朋企業｜從零建立品牌視覺與設計資產",
       "client": "勞朋企業 ROBURN",
@@ -105,7 +146,7 @@
           "caption": ""
         }
       ],
-      "sortOrder": 1,
+      "sortOrder": 2,
       "hidden": false
     },
     {
@@ -146,7 +187,7 @@
           "caption": ""
         }
       ],
-      "sortOrder": 2,
+      "sortOrder": 3,
       "hidden": false
     }
   ],
