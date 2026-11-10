@@ -1,12 +1,11 @@
 import {useState} from 'react';
 import type {Profile} from '@/lib/portfolio';
-const skillGroups: {label:string; skills:string[]; vendorScope?:string}[] = [
+const skillGroups: {label:string; skills:string[]; scopes?:{title:string;description:string}[]}[] = [
  { label: '設計', skills: ['活動主視覺與行銷素材', '品牌設計與識別規範', '陳列設計', '展覽與攤位視覺', '包裝設計', '書籍排版', '產品型錄與規格表', '插畫與資訊圖表', '門市招牌與燈箱設計'] },
  { label: 'AI 應用', skills: ['生成式 AI 影像製作', '商品使用情境圖', '應用影像合成技術，降低 AI 感', 'AI 輔助影片剪輯', 'AI 工具教學與流程導入'] },
  { label: '拍攝與剪輯', skills: ['商品攝影與打燈', '活動攝影與紀錄', '影像剪輯', 'Photoshop 合成與後製'] },
  { label: '客戶訪談與提案', skills: ['客戶訪談與需求釐清', '視覺方向與提案', '報價與預算評估'] },
- { label: '後端執行', vendorScope: '門市招牌與燈箱製作、官網建置（架構與內容上架）', skills: ['專案排程與跨部門協作', '材質工法與製作規格', '產品圖庫建置', '版型與檔案命名規則', '版本控管與源檔交付'] },
- { label: '印刷製作', skills: ['印前完稿與檔案檢查', '印刷色彩管理', '打樣與成品確認'] },
+ { label: '後端執行', scopes: [{ title: '外包廠商評估與管理', description: '門市招牌與燈箱製作、官網建置（架構與內容上架）' }, { title: '印刷製作', description: '印前完稿與檔案檢查、印刷色彩管理、打樣與成品確認' }], skills: ['專案排程與跨部門協作', '材質工法與製作規格', '產品圖庫建置', '版型與檔案命名規則', '版本控管與源檔交付'] },
  { label: '常用工具', skills: ['Illustrator', 'Photoshop', 'InDesign', 'Lightroom', 'Premiere', 'ComfyUI', '生成式 AI 助理'] },
 ];
 const experience=[["2026.03 — 現在", "VIVISPA／海欣國際有限公司", "資深平面設計師", "負責品牌各式平面視覺、門市招牌、活動宣傳物、療程與新品行銷素材，以及特殊陳列設計。除傳統平面設計外，具生成式 AI 影像應用專長，導入 AI 生成圖像與設計整合流程，應用於活動主視覺、療程情境圖、商品宣傳與各式行銷素材，並協助同事理解及使用相關工具，提升團隊整體視覺產出效率與素材彈性。"], ["2024.07 — 2025.12", "勞朋企業有限公司", "平面／品牌設計師｜噴火槍製造商（成立 40 年）", "服務於具有 40 年歷史的噴火槍製造商。入職一年內從零建立企業視覺識別、產品影像與圖庫制度、更新官網資訊架構與版型、以及可持續更新的產品總目錄，成功把原本沒有設計職能的工廠型組織，升級為有品牌資產與一致溝通語言的 B2B 公司。"], ["2014.09 — 2024.06", "斑馬與狗工作室", "個人工作室｜獨立平面／視覺設計師", "承接品牌、活動與平面設計專案，獨立負責從客戶洽談、需求釐清、報價與時程規劃，到視覺提案、設計執行、攝影、印前製作及最終交付。除設計本身外，也直接處理客戶溝通、預算、廠商與製作端協調，累積完整的專案執行與商業實務經驗。"], ["2011.08 — 2014.08", "狗屋／果樹出版社", "美術編輯", "擔任出版社美術編輯，負責書籍封面與內頁編排，並將書籍主題延伸至宣傳、商品贈品和網站社群。與編輯、行銷及印刷廠協作，讓設計從出版製作銜接到對外推廣。"]];
@@ -21,7 +20,7 @@ function AboutSkills(){
    if(next<0)return;
    e.preventDefault();setActive(next);e.currentTarget.querySelectorAll<HTMLButtonElement>('[role="tab"]')[next]?.focus();
   }}>{skillGroups.map(({label},i)=><button key={label} type="button" id={`about-skill-tab-${i}`} role="tab" aria-selected={active===i} aria-controls={`about-skill-panel-${i}`} tabIndex={active===i?0:-1} onClick={()=>setActive(i)}>{label}</button>)}</div>
-  {skillGroups.map(({label,skills,vendorScope},i)=><div className="about-skill-panel" role="tabpanel" key={label} id={`about-skill-panel-${i}`} aria-labelledby={`about-skill-tab-${i}`} hidden={active!==i} tabIndex={0}>{vendorScope&&<p className="about-skill-scope"><strong>外包廠商評估與管理</strong><span>{vendorScope}</span></p>}<ul>{skills.map(skill=><li key={skill}>{skill}</li>)}</ul></div>)}
+  {skillGroups.map(({label,skills,scopes},i)=><div className="about-skill-panel" role="tabpanel" key={label} id={`about-skill-panel-${i}`} aria-labelledby={`about-skill-tab-${i}`} hidden={active!==i} tabIndex={0}>{scopes?.map(({title,description})=><p className="about-skill-scope" key={title}><strong>{title}</strong><span>{description}</span></p>)}<ul>{skills.map(skill=><li key={skill}>{skill}</li>)}</ul></div>)}
  </div>;
 }
 export default function About({profile}:{profile:Profile}){return <div className="about-editorial"><section className="about-hero" aria-labelledby="about-name">
