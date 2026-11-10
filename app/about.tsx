@@ -13,7 +13,7 @@ const companyDetails=[[["AI 生成影像與設計流程導入", "發揮生成式
 function AboutSkills(){
  const [active,setActive]=useState(0);
  return <div className="about-skills" aria-labelledby="about-skills-title">
-  <h2 id="about-skills-title">我能做的事</h2>
+  <h2 id="about-skills-title">專業能力</h2>
   <div className="about-skill-tabs" role="tablist" aria-label="能力分類" onKeyDown={e=>{
    const n=skillGroups.length;
    const next=e.key==='ArrowRight'?(active+1)%n:e.key==='ArrowLeft'?(active+n-1)%n:e.key==='Home'?0:e.key==='End'?n-1:-1;
