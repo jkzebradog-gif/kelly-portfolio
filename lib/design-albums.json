@@ -242,6 +242,10 @@
     "period": "品牌識別・角色 IP・社群視覺設計",
     "images": [
       {
+        "src": "./assets/albums/duism/1.jpg",
+        "alt": "杜森 duism｜品牌森林主視覺"
+      },
+      {
         "src": "./assets/albums/duism/ci/01.jpg",
         "alt": "杜森品牌識別作品集｜第 1 頁"
       },
@@ -295,8 +299,8 @@
       }
     ],
     "cover": {
-      "src": "./assets/albums/duism/ci/01.jpg",
-      "alt": "杜森品牌識別作品集｜第 1 頁"
+      "src": "./assets/albums/duism/1.jpg",
+      "alt": "杜森 duism｜品牌森林主視覺"
     }
   }
 ]
