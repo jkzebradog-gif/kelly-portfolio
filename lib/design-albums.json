@@ -264,88 +264,96 @@
     "images": [
       {
         "src": "./assets/albums/roburn/01.jpg",
-        "alt": "勞朋企業｜作品展板 01"
+        "alt": "勞朋 ROBURN｜專案閱讀方向"
       },
       {
         "src": "./assets/albums/roburn/02.jpg",
-        "alt": "勞朋企業｜作品展板 02"
+        "alt": "勞朋 ROBURN｜識別系統｜Logo 與標準應用"
       },
       {
         "src": "./assets/albums/roburn/03.jpg",
-        "alt": "勞朋企業｜作品展板 03"
+        "alt": "勞朋 ROBURN｜識別延伸｜標語與品牌物件"
       },
       {
         "src": "./assets/albums/roburn/04.jpg",
-        "alt": "勞朋企業｜作品展板 04"
+        "alt": "勞朋 ROBURN｜展覽主視覺海報｜太空系列"
       },
       {
         "src": "./assets/albums/roburn/05.jpg",
-        "alt": "勞朋企業｜作品展板 05"
+        "alt": "勞朋 ROBURN｜展覽主視覺海報｜太空系列延伸"
       },
       {
         "src": "./assets/albums/roburn/06.jpg",
-        "alt": "勞朋企業｜作品展板 06"
+        "alt": "勞朋 ROBURN｜展覽規劃"
       },
       {
         "src": "./assets/albums/roburn/07.jpg",
-        "alt": "勞朋企業｜作品展板 07"
+        "alt": "勞朋 ROBURN｜法蘭克福展與廣交會｜主視覺設計"
       },
       {
         "src": "./assets/albums/roburn/08.jpg",
-        "alt": "勞朋企業｜作品展板 08"
+        "alt": "勞朋 ROBURN｜法蘭克福展與廣交會｜主視覺延伸"
       },
       {
         "src": "./assets/albums/roburn/09.jpg",
-        "alt": "勞朋企業｜作品展板 09"
+        "alt": "勞朋 ROBURN｜主視覺設計"
       },
       {
         "src": "./assets/albums/roburn/10.jpg",
-        "alt": "勞朋企業｜作品展板 10"
+        "alt": "勞朋 ROBURN｜產品 DM（一）"
       },
       {
         "src": "./assets/albums/roburn/11.jpg",
-        "alt": "勞朋企業｜作品展板 11"
+        "alt": "勞朋 ROBURN｜產品 DM（二）"
       },
       {
         "src": "./assets/albums/roburn/12.jpg",
-        "alt": "勞朋企業｜作品展板 12"
+        "alt": "勞朋 ROBURN｜產品 DM（三）"
       },
       {
         "src": "./assets/albums/roburn/13.jpg",
-        "alt": "勞朋企業｜作品展板 13"
+        "alt": "勞朋 ROBURN｜雜誌內頁廣告設計"
       },
       {
         "src": "./assets/albums/roburn/14.jpg",
-        "alt": "勞朋企業｜作品展板 14"
+        "alt": "勞朋 ROBURN｜邀請卡設計"
       },
       {
         "src": "./assets/albums/roburn/15.jpg",
-        "alt": "勞朋企業｜作品展板 15"
+        "alt": "勞朋 ROBURN｜節慶賀卡設計"
       },
       {
         "src": "./assets/albums/roburn/16.jpg",
-        "alt": "勞朋企業｜作品展板 16"
+        "alt": "勞朋 ROBURN｜40 週年邀請卡設計"
       },
       {
         "src": "./assets/albums/roburn/17.jpg",
-        "alt": "勞朋企業｜作品展板 17"
+        "alt": "勞朋 ROBURN｜產品總目錄"
       },
       {
         "src": "./assets/albums/roburn/18.jpg",
-        "alt": "勞朋企業｜作品展板 18"
+        "alt": "勞朋 ROBURN｜產品總目錄｜系列與功能編排"
       },
       {
         "src": "./assets/albums/roburn/19.jpg",
-        "alt": "勞朋企業｜作品展板 19"
+        "alt": "勞朋 ROBURN｜產品總目錄｜規格與比較資訊"
       },
       {
-        "src": "./assets/albums/roburn/logo-guidelines-dark.jpg",
-        "alt": "勞朋企業｜既有標誌使用規範整理・深色背景"
+        "src": "./assets/albums/roburn/20.jpg",
+        "alt": "勞朋 ROBURN｜包裝設計｜彩卡與彩盒"
+      },
+      {
+        "src": "./assets/albums/roburn/21.jpg",
+        "alt": "勞朋 ROBURN｜包裝設計｜結構與資訊配置"
+      },
+      {
+        "src": "./assets/albums/roburn/22.jpg",
+        "alt": "勞朋 ROBURN｜說明書｜中英文資訊編排"
       }
     ],
     "cover": {
-      "src": "./assets/albums/roburn/13.jpg",
-      "alt": "勞朋企業｜作品展板 13"
+      "src": "./assets/albums/roburn/cover-logo.jpg",
+      "alt": "勞朋 ROBURN Logo"
     }
   },
   {
