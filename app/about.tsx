@@ -20,6 +20,7 @@ const skillLinks: Partial<Record<string, string>> = {
   '展覽與攤位視覺': '#/design/roburn',
   '包裝設計': '#/design/roburn',
   '產品型錄與規格表': '#/design/roburn',
+  '書籍排版': '#/design/roburn',
   '門市招牌與燈箱設計': '#/design/haixin',
   '生成式 AI 影像製作': '#/projects/haixin',
   '商品使用情境圖': '#/projects/haixin',
