@@ -64,7 +64,7 @@
           "caption": ""
         }
       ],
-      "sortOrder": 0,
+      "sortOrder": 3,
       "hidden": false
     },
     {
@@ -84,7 +84,7 @@
           "caption": ""
         }
       ],
-      "sortOrder": 0.5,
+      "sortOrder": 4,
       "hidden": false
     },
     {
@@ -125,7 +125,7 @@
           "caption": ""
         }
       ],
-      "sortOrder": 1,
+      "sortOrder": 2,
       "hidden": false
     },
     {
@@ -166,7 +166,7 @@
           "caption": ""
         }
       ],
-      "sortOrder": 2,
+      "sortOrder": 0,
       "hidden": false
     },
     {
@@ -207,7 +207,7 @@
           "caption": ""
         }
       ],
-      "sortOrder": 3,
+      "sortOrder": 1,
       "hidden": false
     }
   ],
