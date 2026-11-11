@@ -23,7 +23,7 @@ const skillLinks: Partial<Record<string, string>> = {
   '產品型錄與規格表': '#/projects/roburn',
   '書籍排版': '#/projects/roburn',
   '門市招牌與燈箱設計': '#/projects/haixin',
-  '生成式 AI 影像製作': '#/projects/haixin',
+  '生成式 AI 影像製作': '#/projects/duism',
   '商品使用情境圖': '#/projects/haixin',
   '應用影像合成技術，降低 AI 感': '#/projects/haixin',
   'AI 工具教學與流程導入': '#/projects/haixin',
