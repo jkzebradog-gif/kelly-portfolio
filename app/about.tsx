@@ -32,17 +32,20 @@ const skillLinks: Partial<Record<string, string>> = {
 };
 
 function AboutSkills(){
- const [active,setActive]=useState(0);
+ const [active,setActive]=useState<number|null>(null);
  const [preview,setPreview]=useState<{title:string;href:string}|null>(null);
  return <div className="about-skills" aria-labelledby="about-skills-title">
   <h2 id="about-skills-title">專業能力</h2>
-  <div className="about-skill-tabs" role="tablist" aria-label="能力分類" onKeyDown={e=>{
-   const n=skillGroups.length;
-   const next=e.key==='ArrowRight'?(active+1)%n:e.key==='ArrowLeft'?(active+n-1)%n:e.key==='Home'?0:e.key==='End'?n-1:-1;
-   if(next<0)return;
-   e.preventDefault();setActive(next);e.currentTarget.querySelectorAll<HTMLButtonElement>('[role="tab"]')[next]?.focus();
-  }}>{skillGroups.map(({label},i)=><button key={label} type="button" id={`about-skill-tab-${i}`} role="tab" aria-selected={active===i} aria-controls={`about-skill-panel-${i}`} tabIndex={active===i?0:-1} onClick={()=>setActive(i)}>{label}</button>)}</div>
-  {skillGroups.map(({label,skills,scopes},i)=><div className="about-skill-panel" role="tabpanel" key={label} id={`about-skill-panel-${i}`} aria-labelledby={`about-skill-tab-${i}`} hidden={active!==i} tabIndex={0}>{scopes?.map(({title,description})=><p className="about-skill-scope" key={title}><strong>{title}</strong><span>{description}</span></p>)}<ul>{skills.map(skill=>{
+  <div className="about-skill-buttons" role="group" aria-label="能力分類">
+   {skillGroups.map(({label},i)=>(
+    <button key={label} type="button" id={`about-skill-button-${i}`}
+     aria-expanded={active===i} aria-controls={`about-skill-panel-${i}`}
+     onClick={()=>setActive(current=>current===i?null:i)}>
+     {label}<span aria-hidden="true">{active===i?'−':'+'}</span>
+    </button>
+   ))}
+  </div>
+  {skillGroups.map(({label,skills,scopes},i)=><div className="about-skill-panel" role="region" key={label} id={`about-skill-panel-${i}`} aria-labelledby={`about-skill-button-${i}`} hidden={active!==i} tabIndex={0}>{scopes?.map(({title,description})=><p className="about-skill-scope" key={title}><strong>{title}</strong><span>{description}</span></p>)}<ul>{skills.map(skill=>{
    const href=skillLinks[skill];
    return <li key={skill}>{href?<a className="about-skill-link" href={href} aria-haspopup="dialog" onClick={event=>{
     if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
