@@ -302,8 +302,16 @@
         "alt": "海欣國際｜作品展板 05"
       },
       {
-        "src": "./assets/albums/haixin/06.jpg",
-        "alt": "海欣國際｜作品展板 06"
+        "src": "./assets/albums/haixin/dm-face.webp",
+        "alt": "海欣國際｜DM 改版｜VIVISPA 臉部產品價目表｜改版前與改版後"
+      },
+      {
+        "src": "./assets/albums/haixin/dm-body.webp",
+        "alt": "海欣國際｜DM 改版｜VIVISPA 身體產品價目表｜改版前與改版後"
+      },
+      {
+        "src": "./assets/albums/haixin/dm-mact.webp",
+        "alt": "海欣國際｜DM 改版｜MAC・T 產品價目表｜改版前與改版後"
       },
       {
         "src": "./assets/albums/haixin/07.jpg",
@@ -314,8 +322,16 @@
         "alt": "海欣國際｜作品展板 08"
       },
       {
-        "src": "./assets/albums/haixin/09.jpg",
-        "alt": "海欣國際｜作品展板 09"
+        "src": "./assets/albums/haixin/sign-daan.webp",
+        "alt": "海欣國際｜門市招牌｜法芮大安店｜製作檔案與施作完成"
+      },
+      {
+        "src": "./assets/albums/haixin/sign-bade.webp",
+        "alt": "海欣國際｜門市招牌｜法芮八德東店｜製作檔案與施作完成"
+      },
+      {
+        "src": "./assets/albums/haixin/sign-neihu.webp",
+        "alt": "海欣國際｜門市招牌｜VIVISPA 內湖雙麗店｜製作檔案與施作完成"
       }
     ],
     "cover": {
