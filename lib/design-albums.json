@@ -282,40 +282,72 @@
     "period": "2026.03 — 現在",
     "images": [
       {
-        "src": "./assets/albums/haixin/cover-fairy.jpg",
-        "alt": "海欣國際｜法芮頭皮的渡假村主視覺與現場應用"
+        "src": "./assets/albums/haixin/portfolio-01.webp",
+        "alt": "海欣國際｜臉部產品價目表改版"
       },
       {
-        "src": "./assets/albums/haixin/01.jpg",
-        "alt": "海欣國際｜作品展板 01"
+        "src": "./assets/albums/haixin/portfolio-02.webp",
+        "alt": "海欣國際｜身體產品價目表改版"
       },
       {
-        "src": "./assets/albums/haixin/03.jpg",
-        "alt": "海欣國際｜作品展板 03"
+        "src": "./assets/albums/haixin/portfolio-03.webp",
+        "alt": "海欣國際｜MAC・T 產品價目表改版"
       },
       {
-        "src": "./assets/albums/haixin/04.jpg",
-        "alt": "海欣國際｜作品展板 04"
+        "src": "./assets/albums/haixin/portfolio-04.webp",
+        "alt": "海欣國際｜法芮頭皮度假村｜活動主視覺"
       },
       {
-        "src": "./assets/albums/haixin/05.jpg",
-        "alt": "海欣國際｜作品展板 05"
+        "src": "./assets/albums/haixin/portfolio-05.webp",
+        "alt": "海欣國際｜法芮產品／活動 DM"
       },
       {
-        "src": "./assets/albums/haixin/06.jpg",
-        "alt": "海欣國際｜作品展板 06"
+        "src": "./assets/albums/haixin/portfolio-06.webp",
+        "alt": "海欣國際｜極潤透氧產品 DM"
       },
       {
-        "src": "./assets/albums/haixin/07.jpg",
-        "alt": "海欣國際｜作品展板 07"
+        "src": "./assets/albums/haixin/portfolio-07.webp",
+        "alt": "海欣國際｜身體芳療產品 DM"
       },
       {
-        "src": "./assets/albums/haixin/08.jpg",
-        "alt": "海欣國際｜作品展板 08"
+        "src": "./assets/albums/haixin/portfolio-08.webp",
+        "alt": "海欣國際｜產品／活動 DM"
       },
       {
-        "src": "./assets/albums/haixin/09.jpg",
-        "alt": "海欣國際｜作品展板 09"
+        "src": "./assets/albums/haixin/portfolio-09.webp",
+        "alt": "海欣國際｜VIP 活動 DM｜資訊層級設計"
+      },
+      {
+        "src": "./assets/albums/haixin/portfolio-10.webp",
+        "alt": "海欣國際｜外牆包柱廣告"
+      },
+      {
+        "src": "./assets/albums/haixin/portfolio-11.webp",
+        "alt": "海欣國際｜新莊幸福店｜外牆橫招"
+      },
+      {
+        "src": "./assets/albums/haixin/portfolio-12.webp",
+        "alt": "海欣國際｜新莊幸福店｜入口上方大圖"
+      },
+      {
+        "src": "./assets/albums/haixin/portfolio-13.webp",
+        "alt": "海欣國際｜新莊幸福店｜玻璃門資訊割字"
+      },
+      {
+        "src": "./assets/albums/haixin/portfolio-14.webp",
+        "alt": "海欣國際｜新莊幸福店｜一樓與二樓識別"
+      },
+      {
+        "src": "./assets/albums/haixin/portfolio-15.webp",
+        "alt": "海欣國際｜新莊幸福店｜二樓門口大圖"
+      },
+      {
+        "src": "./assets/albums/haixin/portfolio-16.webp",
+        "alt": "海欣國際｜新莊幸福店｜後門大圖"
+      },
+      {
+        "src": "./assets/albums/haixin/portfolio-17.webp",
+        "alt": "海欣國際｜內湖雙麗店｜門市招牌"
       }
     ],
     "cover": {
