@@ -1,7 +1,8 @@
 'use client';
 import {useEffect,useRef,useState} from 'react';
-import albums from '@/lib/design-albums.json';
+import allAlbums from '@/lib/design-albums.json';
 import {Dialog,DialogContent,DialogTitle,DialogDescription} from '@/components/ui/dialog';
+const albums=allAlbums.filter(album=>!album.projectOnly);
 const pad=(n:number)=>String(n).padStart(2,'0');
 export default function DesignAlbums(){
  const readAlbum=()=>{const hash=decodeURIComponent(location.hash);const id=hash.startsWith('#/design/')?hash.slice(9).split('#')[0]:hash.split('#')[2];return albums.some(a=>a.id===id)?id:null};

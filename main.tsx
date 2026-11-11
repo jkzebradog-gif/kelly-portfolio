@@ -7,7 +7,11 @@ import ProjectDetail from './app/project-detail';
 import MushroomIntro from './app/mushroom-intro';
 import './app/globals.css';
 import './app/projects.css';
-function route(){return location.hash.startsWith('#/')?decodeURIComponent(location.hash.slice(2)).split('#')[0]:'about'}
+function route(){
+ const hash=decodeURIComponent(location.hash);
+ if(hash==='#/design/fairy-launch'||hash==='#/design#fairy-launch')return 'projects/fairy-launch';
+ return hash.startsWith('#/')?hash.slice(2).split('#')[0]:'about';
+}
 function App(){const[page,setPage]=useState(route());useEffect(()=>{const change=()=>{const next=route();setPage(next);const anchor=location.hash.split('#')[2];requestAnimationFrame(()=>{if(anchor)document.getElementById(anchor)?.scrollIntoView();else window.scrollTo(0,0)})};window.addEventListener('hashchange',change);return()=>window.removeEventListener('hashchange',change)},[]);
  if(page.startsWith('projects/'))return <ProjectDetail key={page} id={page.slice(9)}/>;
  if(page.startsWith('design/'))return <Portfolio key={page} page="design"/>;

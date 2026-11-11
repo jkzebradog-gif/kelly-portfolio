@@ -68,6 +68,26 @@
       "hidden": false
     },
     {
+      "id": "fairy-launch",
+      "title": "海欣國際｜法芮品牌發表會陳列設計",
+      "client": "海欣國際",
+      "period": "2026.05.20",
+      "summary": "以「頭皮的渡假村」為主題，呈現法芮品牌發表會的商品陳列與現場視覺。",
+      "role": "",
+      "cover": "./assets/albums/fairy-launch/14.jpg",
+      "blocks": [
+        {
+          "id": "overview",
+          "heading": "專案概述",
+          "text": "陳列設計：將「頭皮的渡假村」的品牌主題帶入發表會，結合商品陳列與現場視覺。\n現場紀錄：呈現商品展示、活動空間與布置細節。",
+          "image": "",
+          "caption": ""
+        }
+      ],
+      "sortOrder": 0.5,
+      "hidden": false
+    },
+    {
       "id": "golden-hand-award",
       "title": "中華民國美容同業協會－2026 美業金手獎",
       "client": "中華民國美容同業協會",
