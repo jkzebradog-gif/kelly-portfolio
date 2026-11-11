@@ -28,6 +28,7 @@ const skillLinks: Partial<Record<string, string>> = {
   'AI 工具教學與流程導入': '#/projects/haixin',
   '商品攝影與打燈': '#/photography',
   '影像剪輯': '#/film',
+  'AI 輔助影片剪輯': '#/film',
 };
 
 function AboutSkills(){
