@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import {Dialog, DialogContent, DialogTitle} from '@/components/ui/dialog';
 import type {Profile} from '@/lib/portfolio';
 const skillGroups: {label:string; skills:string[]; scopes?:{title:string;description:string}[]}[] = [
  { label: '設計', skills: ['活動主視覺與行銷素材', '品牌設計與識別規範', '陳列設計', '展覽與攤位視覺', '包裝設計', '書籍排版', '產品型錄與規格表', '插畫與資訊圖表', '門市招牌與燈箱設計'] },
@@ -33,6 +34,7 @@ const skillLinks: Partial<Record<string, string>> = {
 
 function AboutSkills(){
  const [active,setActive]=useState(0);
+ const [preview,setPreview]=useState<{title:string;href:string}|null>(null);
  return <div className="about-skills" aria-labelledby="about-skills-title">
   <h2 id="about-skills-title">專業能力</h2>
   <div className="about-skill-tabs" role="tablist" aria-label="能力分類" onKeyDown={e=>{
@@ -43,8 +45,18 @@ function AboutSkills(){
   }}>{skillGroups.map(({label},i)=><button key={label} type="button" id={`about-skill-tab-${i}`} role="tab" aria-selected={active===i} aria-controls={`about-skill-panel-${i}`} tabIndex={active===i?0:-1} onClick={()=>setActive(i)}>{label}</button>)}</div>
   {skillGroups.map(({label,skills,scopes},i)=><div className="about-skill-panel" role="tabpanel" key={label} id={`about-skill-panel-${i}`} aria-labelledby={`about-skill-tab-${i}`} hidden={active!==i} tabIndex={0}>{scopes?.map(({title,description})=><p className="about-skill-scope" key={title}><strong>{title}</strong><span>{description}</span></p>)}<ul>{skills.map(skill=>{
    const href=skillLinks[skill];
-   return <li key={skill}>{href?<a className="about-skill-link" href={href}>{skill} <span aria-hidden="true">↗</span></a>:skill}</li>;
+   return <li key={skill}>{href?<a className="about-skill-link" href={href} aria-haspopup="dialog" onClick={event=>{
+    if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+    event.preventDefault();
+    setPreview({title:skill,href});
+   }}>{skill} <span aria-hidden="true">↗</span></a>:skill}</li>;
   })}</ul></div>)}
+  <Dialog open={preview!==null} onOpenChange={open=>{if(!open)setPreview(null)}}>
+   <DialogContent className="portfolio-viewer skill-preview" aria-describedby={undefined}>
+    <DialogTitle>{preview?.title}</DialogTitle>
+    {preview&&<iframe className="skill-preview-frame" src={preview.href} title={preview.title+'作品預覽'}/>}
+   </DialogContent>
+  </Dialog>
  </div>;
 }
 export default function About({profile}:{profile:Profile}){return <div className="about-editorial"><section className="about-hero" aria-labelledby="about-name">
