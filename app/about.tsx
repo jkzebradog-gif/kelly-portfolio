@@ -15,7 +15,7 @@ const skillLinks: Partial<Record<string, string>> = {
   '活動主視覺與行銷素材': '#/projects/golden-hand-award',
   '陳列設計': '#/projects/fairy-launch',
   '專案排程與跨部門協作': '#/projects/fairy-launch',
-  '品牌設計與識別規範': '#/projects/roburn',
+  '品牌設計與識別規範': '#/projects/duism',
   '產品圖庫建置': '#/projects/roburn',
   '版型與檔案命名規則': '#/projects/roburn',
   '展覽與攤位視覺': '#/projects/roburn',
